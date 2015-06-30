@@ -52,8 +52,8 @@ NSNumber* kilogramsToPounds(NSNumber* kilograms){
 }
 
 - (IBAction)goButtonPressed:(id)sender {
-  NSNumber* heightNumber = poundsToKilograms([NSNumber numberWithFloat: self.myHeightTextField.text.floatValue]);
-  NSNumber* weightNumber = inchesToCentimeters([NSNumber numberWithFloat: self.myWeightTextField.text.floatValue]);
+  NSNumber* heightNumber = inchesToCentimeters([NSNumber numberWithFloat: self.myHeightTextField.text.floatValue]);
+  NSNumber* weightNumber = poundsToKilograms([NSNumber numberWithFloat: self.myWeightTextField.text.floatValue]);
   Subject* subject = [Subject sharedSubject];
   subject.heightInCentimeters = heightNumber;
   subject.weightInKilograms = weightNumber;
