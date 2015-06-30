@@ -1,4 +1,7 @@
 /*
+ * This is just a demo program to get started learning
+ * how to program in Objective-C.
+ *
  * To compile from the command line
  * open a terminal and use the following command.
  * cc anagram.m -framework Foundation -o anagram
