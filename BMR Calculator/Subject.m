@@ -24,7 +24,7 @@ static Subject* _mySecretSubject;
     }
     return _mySecretSubject;
 }
-
+//added a comment
 -(NSNumber*) bmi
 {
     /*
