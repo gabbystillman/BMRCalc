@@ -1,0 +1,7 @@
+For this exercise, your BMR is calculated using the revised Harris Benedict
+Equation,
+P = ((13.397M/1kg) + (4.799H/1cm) - (5.677A/1year) + 88.362)kcal/day for men
+and
+P = ((9.247M/1kg) + (3.098H/1cm) - (4.330A/1year) + 447.593kcal/day for women,
+where M is the mass in kg, H is the height in cm, and A is the age in years
+of the subject.
