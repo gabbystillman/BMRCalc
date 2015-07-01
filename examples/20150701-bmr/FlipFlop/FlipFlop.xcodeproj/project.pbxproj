@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D3096A195C99D5003F9F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D30969195C99D5003F9F89 /* Foundation.framework */; };
+		83D3096C195C99D5003F9F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3096B195C99D5003F9F89 /* CoreGraphics.framework */; };
+		83D3096E195C99D6003F9F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3096D195C99D6003F9F89 /* UIKit.framework */; };
+		83D30974195C99D6003F9F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D30972195C99D6003F9F89 /* InfoPlist.strings */; };
+		83D30976195C99D6003F9F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D30975195C99D6003F9F89 /* main.m */; };
+		83D3097A195C99D6003F9F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D30979195C99D6003F9F89 /* AppDelegate.m */; };
+		83D3097D195C99D6003F9F89 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D3097B195C99D6003F9F89 /* Main_iPhone.storyboard */; };
+		83D30980195C99D6003F9F89 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D3097E195C99D6003F9F89 /* Main_iPad.storyboard */; };
+		83D30983195C99D6003F9F89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D30982195C99D6003F9F89 /* ViewController.m */; };
+		83D30985195C99D6003F9F89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D30984195C99D6003F9F89 /* Images.xcassets */; };
+		83D3098C195C99D6003F9F89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3098B195C99D6003F9F89 /* XCTest.framework */; };
+		83D3098D195C99D6003F9F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D30969195C99D5003F9F89 /* Foundation.framework */; };
+		83D3098E195C99D6003F9F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D3096D195C99D6003F9F89 /* UIKit.framework */; };
+		83D30996195C99D6003F9F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D30994195C99D6003F9F89 /* InfoPlist.strings */; };
+		83D30998195C99D6003F9F89 /* FlipFlopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D30997195C99D6003F9F89 /* FlipFlopTests.m */; };
+		83D309A2195C9A39003F9F89 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83D309A1195C9A39003F9F89 /* cat.jpg */; };
+		83D309A4195C9A7D003F9F89 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83D309A3195C9A7D003F9F89 /* dog.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D3098F195C99D6003F9F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D3095E195C99D5003F9F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D30965195C99D5003F9F89;
+			remoteInfo = FlipFlop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D30966195C99D5003F9F89 /* FlipFlop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFlop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D30969195C99D5003F9F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83D3096B195C99D5003F9F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83D3096D195C99D6003F9F89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83D30971195C99D6003F9F89 /* FlipFlop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipFlop-Info.plist"; sourceTree = "<group>"; };
+		83D30973195C99D6003F9F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D30975195C99D6003F9F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83D30977195C99D6003F9F89 /* FlipFlop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipFlop-Prefix.pch"; sourceTree = "<group>"; };
+		83D30978195C99D6003F9F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83D30979195C99D6003F9F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83D3097C195C99D6003F9F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		83D3097F195C99D6003F9F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		83D30981195C99D6003F9F89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83D30982195C99D6003F9F89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83D30984195C99D6003F9F89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83D3098A195C99D6003F9F89 /* FlipFlopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipFlopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D3098B195C99D6003F9F89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83D30993195C99D6003F9F89 /* FlipFlopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipFlopTests-Info.plist"; sourceTree = "<group>"; };
+		83D30995195C99D6003F9F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D30997195C99D6003F9F89 /* FlipFlopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipFlopTests.m; sourceTree = "<group>"; };
+		83D309A1195C9A39003F9F89 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		83D309A3195C9A7D003F9F89 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D30963195C99D5003F9F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D3096C195C99D5003F9F89 /* CoreGraphics.framework in Frameworks */,
+				83D3096E195C99D6003F9F89 /* UIKit.framework in Frameworks */,
+				83D3096A195C99D5003F9F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D30987195C99D6003F9F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D3098C195C99D6003F9F89 /* XCTest.framework in Frameworks */,
+				83D3098E195C99D6003F9F89 /* UIKit.framework in Frameworks */,
+				83D3098D195C99D6003F9F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D3095D195C99D5003F9F89 = {
+			isa = PBXGroup;
+			children = (
+				83D3096F195C99D6003F9F89 /* FlipFlop */,
+				83D30991195C99D6003F9F89 /* FlipFlopTests */,
+				83D30968195C99D5003F9F89 /* Frameworks */,
+				83D30967195C99D5003F9F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D30967195C99D5003F9F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D30966195C99D5003F9F89 /* FlipFlop.app */,
+				83D3098A195C99D6003F9F89 /* FlipFlopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D30968195C99D5003F9F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D30969195C99D5003F9F89 /* Foundation.framework */,
+				83D3096B195C99D5003F9F89 /* CoreGraphics.framework */,
+				83D3096D195C99D6003F9F89 /* UIKit.framework */,
+				83D3098B195C99D6003F9F89 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D3096F195C99D6003F9F89 /* FlipFlop */ = {
+			isa = PBXGroup;
+			children = (
+				83D30978195C99D6003F9F89 /* AppDelegate.h */,
+				83D30979195C99D6003F9F89 /* AppDelegate.m */,
+				83D3097B195C99D6003F9F89 /* Main_iPhone.storyboard */,
+				83D3097E195C99D6003F9F89 /* Main_iPad.storyboard */,
+				83D30981195C99D6003F9F89 /* ViewController.h */,
+				83D30982195C99D6003F9F89 /* ViewController.m */,
+				83D30984195C99D6003F9F89 /* Images.xcassets */,
+				83D30970195C99D6003F9F89 /* Supporting Files */,
+			);
+			path = FlipFlop;
+			sourceTree = "<group>";
+		};
+		83D30970195C99D6003F9F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D309A1195C9A39003F9F89 /* cat.jpg */,
+				83D309A3195C9A7D003F9F89 /* dog.jpg */,
+				83D30971195C99D6003F9F89 /* FlipFlop-Info.plist */,
+				83D30972195C99D6003F9F89 /* InfoPlist.strings */,
+				83D30975195C99D6003F9F89 /* main.m */,
+				83D30977195C99D6003F9F89 /* FlipFlop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83D30991195C99D6003F9F89 /* FlipFlopTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D30997195C99D6003F9F89 /* FlipFlopTests.m */,
+				83D30992195C99D6003F9F89 /* Supporting Files */,
+			);
+			path = FlipFlopTests;
+			sourceTree = "<group>";
+		};
+		83D30992195C99D6003F9F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D30993195C99D6003F9F89 /* FlipFlopTests-Info.plist */,
+				83D30994195C99D6003F9F89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D30965195C99D5003F9F89 /* FlipFlop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D3099B195C99D6003F9F89 /* Build configuration list for PBXNativeTarget "FlipFlop" */;
+			buildPhases = (
+				83D30962195C99D5003F9F89 /* Sources */,
+				83D30963195C99D5003F9F89 /* Frameworks */,
+				83D30964195C99D5003F9F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipFlop;
+			productName = FlipFlop;
+			productReference = 83D30966195C99D5003F9F89 /* FlipFlop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D30989195C99D6003F9F89 /* FlipFlopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D3099E195C99D6003F9F89 /* Build configuration list for PBXNativeTarget "FlipFlopTests" */;
+			buildPhases = (
+				83D30986195C99D6003F9F89 /* Sources */,
+				83D30987195C99D6003F9F89 /* Frameworks */,
+				83D30988195C99D6003F9F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D30990195C99D6003F9F89 /* PBXTargetDependency */,
+			);
+			name = FlipFlopTests;
+			productName = FlipFlopTests;
+			productReference = 83D3098A195C99D6003F9F89 /* FlipFlopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D3095E195C99D5003F9F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Shafae";
+				TargetAttributes = {
+					83D30989195C99D6003F9F89 = {
+						TestTargetID = 83D30965195C99D5003F9F89;
+					};
+				};
+			};
+			buildConfigurationList = 83D30961195C99D5003F9F89 /* Build configuration list for PBXProject "FlipFlop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D3095D195C99D5003F9F89;
+			productRefGroup = 83D30967195C99D5003F9F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D30965195C99D5003F9F89 /* FlipFlop */,
+				83D30989195C99D6003F9F89 /* FlipFlopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D30964195C99D5003F9F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D309A4195C9A7D003F9F89 /* dog.jpg in Resources */,
+				83D309A2195C9A39003F9F89 /* cat.jpg in Resources */,
+				83D30980195C99D6003F9F89 /* Main_iPad.storyboard in Resources */,
+				83D30985195C99D6003F9F89 /* Images.xcassets in Resources */,
+				83D3097D195C99D6003F9F89 /* Main_iPhone.storyboard in Resources */,
+				83D30974195C99D6003F9F89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D30988195C99D6003F9F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D30996195C99D6003F9F89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D30962195C99D5003F9F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D30983195C99D6003F9F89 /* ViewController.m in Sources */,
+				83D3097A195C99D6003F9F89 /* AppDelegate.m in Sources */,
+				83D30976195C99D6003F9F89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D30986195C99D6003F9F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D30998195C99D6003F9F89 /* FlipFlopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D30990195C99D6003F9F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D30965195C99D5003F9F89 /* FlipFlop */;
+			targetProxy = 83D3098F195C99D6003F9F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D30972195C99D6003F9F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D30973195C99D6003F9F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83D3097B195C99D6003F9F89 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D3097C195C99D6003F9F89 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83D3097E195C99D6003F9F89 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D3097F195C99D6003F9F89 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83D30994195C99D6003F9F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D30995195C99D6003F9F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D30999195C99D6003F9F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D3099A195C99D6003F9F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D3099C195C99D6003F9F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlop/FlipFlop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83D3099D195C99D6003F9F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlop/FlipFlop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83D3099F195C99D6003F9F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipFlop.app/FlipFlop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipFlopTests/FlipFlopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83D309A0195C99D6003F9F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipFlop.app/FlipFlop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlopTests/FlipFlopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D30961195C99D5003F9F89 /* Build configuration list for PBXProject "FlipFlop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D30999195C99D6003F9F89 /* Debug */,
+				83D3099A195C99D6003F9F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D3099B195C99D6003F9F89 /* Build configuration list for PBXNativeTarget "FlipFlop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3099C195C99D6003F9F89 /* Debug */,
+				83D3099D195C99D6003F9F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83D3099E195C99D6003F9F89 /* Build configuration list for PBXNativeTarget "FlipFlopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D3099F195C99D6003F9F89 /* Debug */,
+				83D309A0195C99D6003F9F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D3095E195C99D5003F9F89 /* Project object */;
+}
