@@ -14,6 +14,7 @@
 		03A48F6E1B4435600067172A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A48F6D1B4435600067172A /* Images.xcassets */; };
 		03A48F711B4435600067172A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A48F6F1B4435600067172A /* LaunchScreen.xib */; };
 		03A48F7D1B4435600067172A /* BMR_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A48F7C1B4435600067172A /* BMR_CalculatorTests.m */; };
+		03A48F881B4436310067172A /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A48F871B4436310067172A /* Subject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03A48F761B4435600067172A /* BMR CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMR CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A48F7B1B4435600067172A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A48F7C1B4435600067172A /* BMR_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMR_CalculatorTests.m; sourceTree = "<group>"; };
+		03A48F861B4436310067172A /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		03A48F871B4436310067172A /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				03A48F641B4435600067172A /* AppDelegate.h */,
 				03A48F651B4435600067172A /* AppDelegate.m */,
 				03A48F671B4435600067172A /* ViewController.h */,
+				03A48F861B4436310067172A /* Subject.h */,
+				03A48F871B4436310067172A /* Subject.m */,
 				03A48F681B4435600067172A /* ViewController.m */,
 				03A48F6A1B4435600067172A /* Main.storyboard */,
 				03A48F6D1B4435600067172A /* Images.xcassets */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A48F881B4436310067172A /* Subject.m in Sources */,
 				03A48F691B4435600067172A /* ViewController.m in Sources */,
 				03A48F661B4435600067172A /* AppDelegate.m in Sources */,
 				03A48F631B4435600067172A /* main.m in Sources */,

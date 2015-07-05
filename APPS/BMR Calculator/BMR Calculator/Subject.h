@@ -11,15 +11,17 @@
 @interface Subject : NSObject
 /*
  {
-  int x;
+ int x;
  NSNumber* heightInKilometers;
  }
  */
 @property (strong, nonatomic) NSNumber* heightInCentimeters;
 @property (strong, nonatomic) NSNumber* weightInKilograms;
-@property (readonly) NSNumber* bmi;
+@property (strong, nonatomic) NSNumber* ageInYears;
+@property BOOL isMale;
+@property (readonly) NSNumber* bmr;
 
-//-(NSNumber*) bmi;
+-(NSNumber*) bmi;
 +(Subject*) sharedSubject;
 
 @end
