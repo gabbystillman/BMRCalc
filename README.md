@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SCEHR-iOS
 =========
 
@@ -13,3 +14,7 @@ Once it is cloned onto your computer, you can update (get new files) the reposit
 git pull origin master
 ```
 
+=======
+# BMRCalc
+Columbia University app to determine BMR.
+>>>>>>> 94104bb0719ad60ab60d9779eadbe691c4f01229

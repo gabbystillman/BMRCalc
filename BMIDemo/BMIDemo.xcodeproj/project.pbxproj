@@ -14,6 +14,7 @@
 		03FA19711B42EFFA00A65A6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FA19701B42EFFA00A65A6D /* Images.xcassets */; };
 		03FA19741B42EFFA00A65A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FA19721B42EFFA00A65A6D /* LaunchScreen.xib */; };
 		03FA19801B42EFFB00A65A6D /* BMIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FA197F1B42EFFB00A65A6D /* BMIDemoTests.m */; };
+		03FA198B1B42F13E00A65A6D /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FA198A1B42F13E00A65A6D /* Subject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03FA19791B42EFFB00A65A6D /* BMIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FA197E1B42EFFB00A65A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FA197F1B42EFFB00A65A6D /* BMIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIDemoTests.m; sourceTree = "<group>"; };
+		03FA19891B42F13E00A65A6D /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		03FA198A1B42F13E00A65A6D /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				03FA196A1B42EFFA00A65A6D /* ViewController.h */,
 				03FA196B1B42EFFA00A65A6D /* ViewController.m */,
 				03FA196D1B42EFFA00A65A6D /* Main.storyboard */,
+				03FA19891B42F13E00A65A6D /* Subject.h */,
+				03FA198A1B42F13E00A65A6D /* Subject.m */,
 				03FA19701B42EFFA00A65A6D /* Images.xcassets */,
 				03FA19721B42EFFA00A65A6D /* LaunchScreen.xib */,
 				03FA19631B42EFFA00A65A6D /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FA198B1B42F13E00A65A6D /* Subject.m in Sources */,
 				03FA196C1B42EFFA00A65A6D /* ViewController.m in Sources */,
 				03FA19691B42EFFA00A65A6D /* AppDelegate.m in Sources */,
 				03FA19661B42EFFA00A65A6D /* main.m in Sources */,

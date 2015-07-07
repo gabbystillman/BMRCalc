@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *myWeightTextField;
+@property (weak, nonatomic) IBOutlet UITextField *myHeightTextField;
+@property (weak, nonatomic) IBOutlet UILabel *myBMILabel;
+- (IBAction)myGoButton:(id)
+    sender;
 
 @end
 
